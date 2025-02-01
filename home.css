@@ -1,0 +1,105 @@
+.navigation{
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    color: inherit;
+    flex-direction: row;
+}
+.links{
+    margin-left: auto;
+}
+.links a{
+    color: white;
+}
+.container1{
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+}
+#explain{
+    display: flex;
+    font-size: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#img1{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container2 img{
+    max-width: 250px;
+    height: auto;
+}
+.container2 ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+    .up1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.center{
+    display: flex;
+    background-color: #8f9195;
+    align-items: center; 
+}
+.center p{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: column;
+}
+.centertext{
+    text-align: center;
+}
+.righttext{
+    text-align:right
+    ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.footercontainer{
+    display: flex;
+    background-color: rgb(55, 55, 242);
+    color: white;
+    width: 50%;
+    height: 40%;
+    flex-direction: column;
+}
+.footercontainer p{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.signup{
+    display: flex;
+    justify-content: right;
+}
+button{
+    background-color: blue;
+    color: white;
+}
